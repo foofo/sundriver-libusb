@@ -1,6 +1,6 @@
-This is a libusb bases reverse reverse engineered driver/application for d2suns wii dvd emulation hardware sundriver.
+This is a libusb based reverse engineered driver/application for d2suns wii dvd emulation hardware sundriver.
 
-NOTE: this driver is still verry basic and only the sput is well tested. Currently it does not handle parst of the generation of the sundriver ISO list. The menu on the WII will detect everything, but not the windows driver application!
+NOTE: this driver is still very basic and only the sput is well tested. Currently it does not handle all parts of the sundriver ISO list. The menu on the WII will detect everything, but not the windows driver application!
 
 For now sls and sget are broken.
 Sput only works for isos not for the menue.
@@ -11,7 +11,7 @@ Use the windows software to format the disk and upload the menu disk. Afterwards
 
 On my system I need to unload usb_storage (sudo rmmod usb_storage) before I am able to use the device. 
 
-You can do me a favour. Connect the device and try to cat or dd some bytes from the dev the device gets from the kernel. On my system I am getting a lot of I/O errors but I am not shure if this is because of broken hardware or not ;)
+You can do me a favour. Connect the device and try to cat or dd some bytes from the dev the device gets from the kernel. On my system I am getting a lot of I/O errors but I am not sure if this is because of broken hardware or not ;)
 
 have fun!
 
